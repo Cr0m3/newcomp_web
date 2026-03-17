@@ -8,7 +8,7 @@
   "hero": {
     "tag": "IT ŘEŠENÍ DALŠÍ GENERACE",
     "title": "Kultivujeme digitální budoucnost.",
-    "description": "NECOMP poskytuje vysoce výkonnou IT infrastrukturu a softwarová řešení na míru navržená tak, aby rostla s vašimi ambicemi.",
+    "description": "NEWCOMP poskytuje vysoce výkonnou IT infrastrukturu a softwarová řešení na míru navržená tak, aby rostla s vašimi ambicemi.",
     "viewProducts": "Zobrazit produkty",
     "learnMore": "Dozvědět se více"
   },
@@ -23,7 +23,7 @@
     "nexus": {
       "tag": "INFRASTRUKTURA",
       "title": "Nexus Grid",
-      "description": "Vysokodostupná síťová infrastruktura pro moderní podniky. Konektivita s nulovou latencí poháněná vlastním hardwarem společnosti NECOMP.",
+      "description": "Vysokodostupná síťová infrastruktura pro moderní podniky. Konektivita s nulovou latencí poháněná vlastním hardwarem společnosti NEWCOMP.",
       "explore": "Dozvědět se více →"
     },
     "shield": {
@@ -46,7 +46,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 NECOMP GmbH. Všechna práva vyhrazena.",
+    "rights": "© 2026 NEWCOMP GmbH. Všechna práva vyhrazena.",
     "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // NĚMECKO"
   }
 }

@@ -4,9 +4,9 @@ import './App.css'
 
 const TerminalSnippet = () => (
   <div className="terminal-snippet animate">
-    <p><span>$</span> necomp --version</p>
-    <p>necomp v2.0.4 (stable)</p>
-    <p><span>$</span> necomp status --product coltivo</p>
+    <p><span>$</span> newcomp --version</p>
+    <p>newcomp v2.0.4 (stable)</p>
+    <p><span>$</span> newcomp status --product coltivo</p>
     <p>Product: Coltivo.de</p>
     <p>Status: <span>Active</span></p>
     <p>Uptime: 99.99%</p>
@@ -34,7 +34,7 @@ function App() {
 
       <nav className={scrolled ? 'scrolled' : ''}>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
-          <div className="logo">NECOMP_</div>
+          <div className="logo">NEWCOMP_</div>
           <div className="nav-links">
             <a href="#products">{t('nav.products')}</a>
             <a href="#services">{t('nav.services')}</a>

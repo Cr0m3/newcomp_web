@@ -8,7 +8,7 @@
   "hero": {
     "tag": "NEXT GEN IT SOLUTIONS",
     "title": "Cultivating the Digital Future.",
-    "description": "NECOMP provides high-performance IT infrastructure and bespoke software solutions designed to scale with your ambitions.",
+    "description": "NEWCOMP provides high-performance IT infrastructure and bespoke software solutions designed to scale with your ambitions.",
     "viewProducts": "View Products",
     "learnMore": "Learn More"
   },
@@ -23,7 +23,7 @@
     "nexus": {
       "tag": "INFRASTRUCTURE",
       "title": "Nexus Grid",
-      "description": "High-availability network infrastructure for modern enterprises. Zero-latency connectivity powered by NECOMP's proprietary hardware.",
+      "description": "High-availability network infrastructure for modern enterprises. Zero-latency connectivity powered by NEWCOMP's proprietary hardware.",
       "explore": "Learn More →"
     },
     "shield": {
@@ -46,7 +46,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 NECOMP GmbH. All rights reserved.",
+    "rights": "© 2026 NEWCOMP GmbH. All rights reserved.",
     "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // GERMANY"
   }
 }

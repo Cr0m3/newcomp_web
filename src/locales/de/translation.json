@@ -8,7 +8,7 @@
   "hero": {
     "tag": "IT-LÖSUNGEN DER NÄCHSTEN GENERATION",
     "title": "Die digitale Zukunft gestalten.",
-    "description": "NECOMP bietet leistungsstarke IT-Infrastruktur und maßgeschneiderte Softwarelösungen, die mit Ihren Ambitionen wachsen.",
+    "description": "NEWCOMP bietet leistungsstarke IT-Infrastruktur und maßgeschneiderte Softwarelösungen, die mit Ihren Ambitionen wachsen.",
     "viewProducts": "Produkte ansehen",
     "learnMore": "Mehr erfahren"
   },
@@ -23,7 +23,7 @@
     "nexus": {
       "tag": "INFRASTRUKTUR",
       "title": "Nexus Grid",
-      "description": "Hochverfügbare Netzwerkinfrastruktur für moderne Unternehmen. Latenzfreie Konnektivität, unterstützt durch die proprietäre Hardware von NECOMP.",
+      "description": "Hochverfügbare Netzwerkinfrastruktur für moderne Unternehmen. Latenzfreie Konnektivität, unterstützt durch die proprietäre Hardware von NEWCOMP.",
       "explore": "Mehr erfahren →"
     },
     "shield": {
@@ -46,7 +46,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 NECOMP GmbH. Alle Rechte vorbehalten.",
+    "rights": "© 2026 NEWCOMP GmbH. Alle Rechte vorbehalten.",
     "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // DEUTSCHLAND"
   }
 }
