@@ -2,7 +2,7 @@
   "nav": {
     "products": "Products",
     "services": "Services",
-    "about": "About",
+    "about": "About Me",
     "getStarted": "Get Started"
   },
   "hero": {
@@ -11,6 +11,10 @@
     "description": "NEWCOMP provides high-performance IT infrastructure and bespoke software solutions designed to scale with your ambitions.",
     "viewProducts": "View Products",
     "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "As a passionate System Engineer and Cloud Workplace Developer, my expertise lies in modern infrastructure and automation using Terraform. When I'm not designing complex cloud environments or diving deep into the world of Artificial Intelligence and OpenClaw, I enjoy my time as a proud father. To me, technology is more than just a tool; it's a way to shape a smarter and more efficient future."
   },
   "products": {
     "title": "Our Products",
@@ -47,6 +51,6 @@
   },
   "footer": {
     "rights": "© 2026 NEWCOMP GmbH. All rights reserved.",
-    "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // GERMANY"
+    "systemRoot": "SYSTEM_ROOT: AUGSBURG // GERMANY"
   }
 }

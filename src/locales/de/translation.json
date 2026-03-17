@@ -2,7 +2,7 @@
   "nav": {
     "products": "Produkte",
     "services": "Dienstleistungen",
-    "about": "Über uns",
+    "about": "Über mich",
     "getStarted": "Loslegen"
   },
   "hero": {
@@ -11,6 +11,10 @@
     "description": "NEWCOMP bietet leistungsstarke IT-Infrastruktur und maßgeschneiderte Softwarelösungen, die mit Ihren Ambitionen wachsen.",
     "viewProducts": "Produkte ansehen",
     "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Als leidenschaftlicher System Engineer und Cloud Workplace Developer schlägt mein Herz für moderne Infrastrukturen und die Automatisierung mit Terraform. Wenn ich nicht gerade komplexe Cloud-Umgebungen entwerfe oder mich in die Welt der Künstlichen Intelligenz und OpenClaw vertiefe, verbringe ich meine Zeit als stolzer Vater. Für mich ist Technologie kein Selbstzweck, sondern ein Werkzeug, um die Zukunft effizienter und smarter zu gestalten."
   },
   "products": {
     "title": "Unsere Produkte",
@@ -47,6 +51,6 @@
   },
   "footer": {
     "rights": "© 2026 NEWCOMP GmbH. Alle Rechte vorbehalten.",
-    "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // DEUTSCHLAND"
+    "systemRoot": "SYSTEM_ROOT: AUGSBURG // DEUTSCHLAND"
   }
 }

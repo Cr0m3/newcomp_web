@@ -87,6 +87,13 @@ function App() {
           </div>
         </section>
 
+        <section id="about" className="hero animate" style={{ padding: '4rem 0', borderTop: '1px solid var(--border-color)' }}>
+          <h2 className="section-title">{t('about.title')}</h2>
+          <p style={{ maxWidth: '800px', margin: '0 auto' }}>
+            {t('about.description')}
+          </p>
+        </section>
+
         <section id="services" className="hero animate" style={{ padding: '4rem 0' }}>
           <h2 className="section-title">{t('services.title')}</h2>
           <p style={{ margin: '0 auto 2rem' }}>{t('services.description')}</p>
