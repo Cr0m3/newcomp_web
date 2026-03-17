@@ -26,10 +26,10 @@
       "description": "Vysokodostupná síťová infrastruktura pro moderní podniky. Konektivita s nulovou latencí poháněná vlastním hardwarem společnosti NEWCOMP.",
       "explore": "Dozvědět se více →"
     },
-    "shield": {
-      "tag": "BEZPEČNOST",
-      "title": "Shield OS",
-      "description": "Zabezpečené operační prostředí pro kritické zpracování dat. Pokročilé šifrování se setkává s nenáročnou správou.",
+    "openclaw": {
+      "tag": "AI / AUTOMATIZACE",
+      "title": "AI (OpenClaw) Automatizace",
+      "description": "Autonomní systémy příští generace pro průmyslové a digitální pracovní postupy. Redefinice efektivity prostřednictvím inteligentní automatizace procesů.",
       "explore": "Zobrazit specifikace →"
     }
   },

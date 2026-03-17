@@ -79,10 +79,10 @@ function App() {
             </div>
 
             <div className="product-card">
-              <div className="product-tag">{t('products.shield.tag')}</div>
-              <h3>{t('products.shield.title')}</h3>
-              <p>{t('products.shield.description')}</p>
-              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.shield.explore')}</a>
+              <div className="product-tag">{t('products.openclaw.tag')}</div>
+              <h3>{t('products.openclaw.title')}</h3>
+              <p>{t('products.openclaw.description')}</p>
+              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.openclaw.explore')}</a>
             </div>
           </div>
         </section>

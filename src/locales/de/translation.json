@@ -26,10 +26,10 @@
       "description": "Hochverfügbare Netzwerkinfrastruktur für moderne Unternehmen. Latenzfreie Konnektivität, unterstützt durch die proprietäre Hardware von NEWCOMP.",
       "explore": "Mehr erfahren →"
     },
-    "shield": {
-      "tag": "SICHERHEIT",
-      "title": "Shield OS",
-      "description": "Gehärtete Betriebsumgebung für kritische Datenverarbeitung. Fortgeschrittene Verschlüsselung trifft auf müheloses Management.",
+    "openclaw": {
+      "tag": "KI / AUTOMATISIERUNG",
+      "title": "AI (OpenClaw) Automatisierung",
+      "description": "Autonome Systeme der nächsten Generation für industrielle und digitale Arbeitsabläufe. Effizienz neu definiert durch intelligente Prozessautomatisierung.",
       "explore": "Spezifikationen ansehen →"
     }
   },

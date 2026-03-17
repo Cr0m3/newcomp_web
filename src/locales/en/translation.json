@@ -26,10 +26,10 @@
       "description": "High-availability network infrastructure for modern enterprises. Zero-latency connectivity powered by NEWCOMP's proprietary hardware.",
       "explore": "Learn More →"
     },
-    "shield": {
-      "tag": "SECURITY",
-      "title": "Shield OS",
-      "description": "Hardened operating environment for critical data processing. Advanced encryption meets effortless management.",
+    "openclaw": {
+      "tag": "AI / AUTOMATION",
+      "title": "AI (OpenClaw) Automatisation",
+      "description": "Next-generation autonomous systems for industrial and digital workflows. Redefining efficiency through intelligent process automation.",
       "explore": "View Specs →"
     }
   },
