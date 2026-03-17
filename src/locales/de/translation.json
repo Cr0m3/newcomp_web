@@ -39,14 +39,14 @@
   },
   "services": {
     "title": "IT-Dienstleistungen",
-    "description": "Von der Netzwerkarchitektur in Augsburg bis hin zu globalen Cloud-Migrationen bauen wir das Rückgrat Ihres digitalen Erfolgs.",
-    "managedNetworks": {
-      "title": "Managed Networks",
-      "description": "24/7 Überwachung und Optimierung Ihres Unternehmensnetzwerks."
+    "description": "Von automatisierten Cloud-Infrastrukturen mit Terraform bis hin zu intelligenten KI-gestützten Workflows bauen wir das Fundament für Ihren digitalen Vorsprung.",
+    "cloudInfrastructure": {
+      "title": "Cloud-Infrastruktur",
+      "description": "Automatisierte, skalierbare und sichere Umgebungen, optimiert mit Terraform und modernsten Cloud-Stacks."
     },
-    "customSoftware": {
-      "title": "Maßgeschneiderte Software",
-      "description": "Maßgeschneiderte Anwendungen, entwickelt mit modernen Stacks (React, Go, Rust)."
+    "aiAutomation": {
+      "title": "KI & Automatisierung",
+      "description": "Integration modernster KI-Lösungen und OpenClaw zur Optimierung Ihrer Geschäftsprozesse."
     }
   },
   "footer": {

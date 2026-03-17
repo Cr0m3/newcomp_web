@@ -39,14 +39,14 @@
   },
   "services": {
     "title": "IT Services",
-    "description": "From network architecture in Augsburg to global cloud migrations, we build the backbone of your digital success.",
-    "managedNetworks": {
-      "title": "Managed Networks",
-      "description": "24/7 monitoring and optimization of your corporate network."
+    "description": "From automated cloud infrastructures with Terraform to intelligent AI-driven workflows, we build the foundation for your digital edge.",
+    "cloudInfrastructure": {
+      "title": "Cloud Infrastructure",
+      "description": "Automated, scalable, and secure environments powered by Terraform and modern cloud stacks."
     },
-    "customSoftware": {
-      "title": "Custom Software",
-      "description": "Tailor-made applications built with modern stacks (React, Go, Rust)."
+    "aiAutomation": {
+      "title": "AI & Automation",
+      "description": "Integrating cutting-edge AI solutions and OpenClaw to streamline your business processes."
     }
   },
   "footer": {

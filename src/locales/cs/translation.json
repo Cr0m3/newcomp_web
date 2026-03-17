@@ -39,14 +39,14 @@
   },
   "services": {
     "title": "IT Služby",
-    "description": "Od síťové architektury v Augsburgu až po globální cloudové migrace, budujeme páteř vašeho digitálního úspěchu.",
-    "managedNetworks": {
-      "title": "Spravované sítě",
-      "description": "24/7 monitorování a optimalizace vaší firemní sítě."
+    "description": "Od automatizovaných cloudových infrastruktur s Terraformem po inteligentní pracovní postupy poháněné AI – budujeme základy pro váš digitální náskok.",
+    "cloudInfrastructure": {
+      "title": "Cloudová infrastruktura",
+      "description": "Automatizovaná, škálovatelná a bezpečná prostředí poháněná Terraformem a moderními cloudovými technologiemi."
     },
-    "customSoftware": {
-      "title": "Software na míru",
-      "description": "Aplikace na míru vytvořené pomocí moderních technologií (React, Go, Rust)."
+    "aiAutomation": {
+      "title": "AI & Automatizace",
+      "description": "Integrace špičkových řešení AI a OpenClaw pro zefektivnění vašich obchodních procesů."
     }
   },
   "footer": {

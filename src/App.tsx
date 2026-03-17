@@ -99,12 +99,12 @@ function App() {
           <p style={{ margin: '0 auto 2rem' }}>{t('services.description')}</p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', textAlign: 'left' }}>
             <div style={{ padding: '1rem', borderLeft: '2px solid var(--accent-color)' }}>
-              <h4>{t('services.managedNetworks.title')}</h4>
-              <p style={{ fontSize: '0.9rem' }}>{t('services.managedNetworks.description')}</p>
+              <h4>{t('services.cloudInfrastructure.title')}</h4>
+              <p style={{ fontSize: '0.9rem' }}>{t('services.cloudInfrastructure.description')}</p>
             </div>
             <div style={{ padding: '1rem', borderLeft: '2px solid var(--accent-color)' }}>
-              <h4>{t('services.customSoftware.title')}</h4>
-              <p style={{ fontSize: '0.9rem' }}>{t('services.customSoftware.description')}</p>
+              <h4>{t('services.aiAutomation.title')}</h4>
+              <p style={{ fontSize: '0.9rem' }}>{t('services.aiAutomation.description')}</p>
             </div>
           </div>
         </section>
