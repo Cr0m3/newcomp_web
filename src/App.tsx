@@ -68,7 +68,7 @@ function App() {
               <div className="product-tag">{t('products.coltivo.tag')}</div>
               <h3>{t('products.coltivo.title')}</h3>
               <p>{t('products.coltivo.description')}</p>
-              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.coltivo.explore')}</a>
+              <a href="https://www.coltivo.de" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.coltivo.explore')}</a>
             </div>
 
             <div className="product-card">

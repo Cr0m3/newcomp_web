@@ -15,9 +15,9 @@
   "products": {
     "title": "Our Products",
     "coltivo": {
-      "tag": "SAAS / AGRI-TECH",
+      "tag": "SAAS / WASTE MGMT",
       "title": "Coltivo.de",
-      "description": "An intelligent platform for cultivating digital growth. Seamlessly integrating data analytics with sustainable practices to optimize your yield and digital footprint.",
+      "description": "A specialized container management platform for textiles and waste. Optimizing collection logistics and lifecycle tracking for sustainable urban environments.",
       "explore": "Explore Coltivo →"
     },
     "nexus": {

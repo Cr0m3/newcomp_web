@@ -15,9 +15,9 @@
   "products": {
     "title": "Unsere Produkte",
     "coltivo": {
-      "tag": "SAAS / AGRI-TECH",
+      "tag": "SAAS / ABFALLWIRTSCHAFT",
       "title": "Coltivo.de",
-      "description": "Eine intelligente Plattform zur Förderung des digitalen Wachstums. Nahtlose Integration von Datenanalyse und nachhaltigen Praktiken zur Optimierung Ihres Ertrags und digitalen Fußabdrucks.",
+      "description": "Eine spezialisierte Plattform für das Containermanagement von Textilien und Abfällen. Optimierung der Erfassungslogistik und Lebenszyklusverfolgung für nachhaltige städtische Umgebungen.",
       "explore": "Coltivo erkunden →"
     },
     "nexus": {
