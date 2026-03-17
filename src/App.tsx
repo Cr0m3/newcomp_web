@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import './App.css'
 
 const TerminalSnippet = () => (
@@ -14,12 +15,17 @@ const TerminalSnippet = () => (
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className="app">
@@ -30,79 +36,68 @@ function App() {
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
           <div className="logo">NECOMP_</div>
           <div className="nav-links">
-            <a href="#products">Products</a>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#contact" className="cta-button" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem' }}>Get Started</a>
+            <a href="#products">{t('nav.products')}</a>
+            <a href="#services">{t('nav.services')}</a>
+            <a href="#about">{t('nav.about')}</a>
+            <div className="lang-switcher" style={{ display: 'flex', gap: '0.5rem', marginLeft: '1rem' }}>
+              <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? 'active' : ''} style={{ background: 'transparent', border: 'none', color: '#fff', cursor: 'pointer', fontSize: '0.8rem', opacity: i18n.language === 'en' ? 1 : 0.5 }}>EN</button>
+              <button onClick={() => changeLanguage('de')} className={i18n.language === 'de' ? 'active' : ''} style={{ background: 'transparent', border: 'none', color: '#fff', cursor: 'pointer', fontSize: '0.8rem', opacity: i18n.language === 'de' ? 1 : 0.5 }}>DE</button>
+              <button onClick={() => changeLanguage('cs')} className={i18n.language === 'cs' ? 'active' : ''} style={{ background: 'transparent', border: 'none', color: '#fff', cursor: 'pointer', fontSize: '0.8rem', opacity: i18n.language === 'cs' ? 1 : 0.5 }}>CS</button>
+            </div>
+            <a href="#contact" className="cta-button" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', marginLeft: '1rem' }}>{t('nav.getStarted')}</a>
           </div>
         </div>
       </nav>
 
       <main className="container">
         <section className="hero animate">
-          <div className="product-tag">NEXT GEN IT SOLUTIONS</div>
-          <h1>Cultivating the Digital Future.</h1>
-          <p>
-            NECOMP provides high-performance IT infrastructure and bespoke software solutions 
-            designed to scale with your ambitions.
-          </p>
+          <div className="product-tag">{t('hero.tag')}</div>
+          <h1>{t('hero.title')}</h1>
+          <p>{t('hero.description')}</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-            <a href="#products" className="cta-button">View Products</a>
-            <a href="#about" className="cta-button" style={{ background: 'transparent', color: '#fff', border: '1px solid var(--border-color)' }}>Learn More</a>
+            <a href="#products" className="cta-button">{t('hero.viewProducts')}</a>
+            <a href="#about" className="cta-button" style={{ background: 'transparent', color: '#fff', border: '1px solid var(--border-color)' }}>{t('hero.learnMore')}</a>
           </div>
           <TerminalSnippet />
         </section>
 
         <section id="products" className="products-section animate">
-          <h2 className="section-title">Our Products</h2>
+          <h2 className="section-title">{t('products.title')}</h2>
           <div className="products-grid">
             <div className="product-card">
-              <div className="product-tag">SAAS / AGRI-TECH</div>
-              <h3>Coltivo.de</h3>
-              <p>
-                An intelligent platform for cultivating digital growth. 
-                Seamlessly integrating data analytics with sustainable practices 
-                to optimize your yield and digital footprint.
-              </p>
-              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>Explore Coltivo →</a>
+              <div className="product-tag">{t('products.coltivo.tag')}</div>
+              <h3>{t('products.coltivo.title')}</h3>
+              <p>{t('products.coltivo.description')}</p>
+              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.coltivo.explore')}</a>
             </div>
 
             <div className="product-card">
-              <div className="product-tag">INFRASTRUCTURE</div>
-              <h3>Nexus Grid</h3>
-              <p>
-                High-availability network infrastructure for modern enterprises. 
-                Zero-latency connectivity powered by NECOMP's proprietary hardware.
-              </p>
-              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>Learn More →</a>
+              <div className="product-tag">{t('products.nexus.tag')}</div>
+              <h3>{t('products.nexus.title')}</h3>
+              <p>{t('products.nexus.description')}</p>
+              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.nexus.explore')}</a>
             </div>
 
             <div className="product-card">
-              <div className="product-tag">SECURITY</div>
-              <h3>Shield OS</h3>
-              <p>
-                Hardened operating environment for critical data processing. 
-                Advanced encryption meets effortless management.
-              </p>
-              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>View Specs →</a>
+              <div className="product-tag">{t('products.shield.tag')}</div>
+              <h3>{t('products.shield.title')}</h3>
+              <p>{t('products.shield.description')}</p>
+              <a href="#" style={{ color: 'var(--accent-color)', textDecoration: 'none', fontWeight: '600' }}>{t('products.shield.explore')}</a>
             </div>
           </div>
         </section>
 
         <section id="services" className="hero animate" style={{ padding: '4rem 0' }}>
-          <h2 className="section-title">IT Services</h2>
-          <p style={{ margin: '0 auto 2rem' }}>
-            From network architecture in Düsseldorf to global cloud migrations, 
-            we build the backbone of your digital success.
-          </p>
+          <h2 className="section-title">{t('services.title')}</h2>
+          <p style={{ margin: '0 auto 2rem' }}>{t('services.description')}</p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', textAlign: 'left' }}>
             <div style={{ padding: '1rem', borderLeft: '2px solid var(--accent-color)' }}>
-              <h4>Managed Networks</h4>
-              <p style={{ fontSize: '0.9rem' }}>24/7 monitoring and optimization of your corporate network.</p>
+              <h4>{t('services.managedNetworks.title')}</h4>
+              <p style={{ fontSize: '0.9rem' }}>{t('services.managedNetworks.description')}</p>
             </div>
             <div style={{ padding: '1rem', borderLeft: '2px solid var(--accent-color)' }}>
-              <h4>Custom Software</h4>
-              <p style={{ fontSize: '0.9rem' }}>Tailor-made applications built with modern stacks (React, Go, Rust).</p>
+              <h4>{t('services.customSoftware.title')}</h4>
+              <p style={{ fontSize: '0.9rem' }}>{t('services.customSoftware.description')}</p>
             </div>
           </div>
         </section>
@@ -110,8 +105,8 @@ function App() {
 
       <footer>
         <div className="container">
-          <p>&copy; 2026 NECOMP GmbH. All rights reserved.</p>
-          <p style={{ fontSize: '0.7rem', marginTop: '1rem' }}>SYSTEM_ROOT: DÜSSELDORF // GERMANY</p>
+          <p>{t('footer.rights')}</p>
+          <p style={{ fontSize: '0.7rem', marginTop: '1rem' }}>{t('footer.systemRoot')}</p>
         </div>
       </footer>
     </div>

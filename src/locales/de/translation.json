@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "tag": "IT-LÖSUNGEN DER NÄCHSTEN GENERATION",
+    "title": "Die digitale Zukunft gestalten.",
+    "description": "NECOMP bietet leistungsstarke IT-Infrastruktur und maßgeschneiderte Softwarelösungen, die mit Ihren Ambitionen wachsen.",
+    "viewProducts": "Produkte ansehen",
+    "learnMore": "Mehr erfahren"
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "coltivo": {
+      "tag": "SAAS / AGRI-TECH",
+      "title": "Coltivo.de",
+      "description": "Eine intelligente Plattform zur Förderung des digitalen Wachstums. Nahtlose Integration von Datenanalyse und nachhaltigen Praktiken zur Optimierung Ihres Ertrags und digitalen Fußabdrucks.",
+      "explore": "Coltivo erkunden →"
+    },
+    "nexus": {
+      "tag": "INFRASTRUKTUR",
+      "title": "Nexus Grid",
+      "description": "Hochverfügbare Netzwerkinfrastruktur für moderne Unternehmen. Latenzfreie Konnektivität, unterstützt durch die proprietäre Hardware von NECOMP.",
+      "explore": "Mehr erfahren →"
+    },
+    "shield": {
+      "tag": "SICHERHEIT",
+      "title": "Shield OS",
+      "description": "Gehärtete Betriebsumgebung für kritische Datenverarbeitung. Fortgeschrittene Verschlüsselung trifft auf müheloses Management.",
+      "explore": "Spezifikationen ansehen →"
+    }
+  },
+  "services": {
+    "title": "IT-Dienstleistungen",
+    "description": "Von der Netzwerkarchitektur in Düsseldorf bis hin zu globalen Cloud-Migrationen bauen wir das Rückgrat Ihres digitalen Erfolgs.",
+    "managedNetworks": {
+      "title": "Managed Networks",
+      "description": "24/7 Überwachung und Optimierung Ihres Unternehmensnetzwerks."
+    },
+    "customSoftware": {
+      "title": "Maßgeschneiderte Software",
+      "description": "Maßgeschneiderte Anwendungen, entwickelt mit modernen Stacks (React, Go, Rust)."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 NECOMP GmbH. Alle Rechte vorbehalten.",
+    "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // DEUTSCHLAND"
+  }
+}

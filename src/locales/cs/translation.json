@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "products": "Produkty",
+    "services": "Služby",
+    "about": "O nás",
+    "getStarted": "Začít"
+  },
+  "hero": {
+    "tag": "IT ŘEŠENÍ DALŠÍ GENERACE",
+    "title": "Kultivujeme digitální budoucnost.",
+    "description": "NECOMP poskytuje vysoce výkonnou IT infrastrukturu a softwarová řešení na míru navržená tak, aby rostla s vašimi ambicemi.",
+    "viewProducts": "Zobrazit produkty",
+    "learnMore": "Dozvědět se více"
+  },
+  "products": {
+    "title": "Naše produkty",
+    "coltivo": {
+      "tag": "SAAS / AGRI-TECH",
+      "title": "Coltivo.de",
+      "description": "Inteligentní platforma pro pěstování digitálního růstu. Bezproblémová integrace datové analytiky s udržitelnými postupy pro optimalizaci vašeho výnosu a digitální stopy.",
+      "explore": "Prozkoumat Coltivo →"
+    },
+    "nexus": {
+      "tag": "INFRASTRUKTURA",
+      "title": "Nexus Grid",
+      "description": "Vysokodostupná síťová infrastruktura pro moderní podniky. Konektivita s nulovou latencí poháněná vlastním hardwarem společnosti NECOMP.",
+      "explore": "Dozvědět se více →"
+    },
+    "shield": {
+      "tag": "BEZPEČNOST",
+      "title": "Shield OS",
+      "description": "Zabezpečené operační prostředí pro kritické zpracování dat. Pokročilé šifrování se setkává s nenáročnou správou.",
+      "explore": "Zobrazit specifikace →"
+    }
+  },
+  "services": {
+    "title": "IT Služby",
+    "description": "Od síťové architektury v Düsseldorfu až po globální cloudové migrace, budujeme páteř vašeho digitálního úspěchu.",
+    "managedNetworks": {
+      "title": "Spravované sítě",
+      "description": "24/7 monitorování a optimalizace vaší firemní sítě."
+    },
+    "customSoftware": {
+      "title": "Software na míru",
+      "description": "Aplikace na míru vytvořené pomocí moderních technologií (React, Go, Rust)."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 NECOMP GmbH. Všechna práva vyhrazena.",
+    "systemRoot": "SYSTEM_ROOT: DÜSSELDORF // NĚMECKO"
+  }
+}
